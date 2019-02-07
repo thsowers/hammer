@@ -1,0 +1,9 @@
+[package]
+name = "hammer"
+version = "0.1.0"
+authors = ["thsowers <tyler@startrakstudios.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.9.9"
+rayon = "1.0.3"
