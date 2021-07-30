@@ -11,7 +11,7 @@ fn hammer(num: usize) {
 
     for _ in 0..rayon::current_num_threads() {
         let handle = thread::spawn(move || {
-            reqwest::get("https://api.poempath.com/randomPoem")
+            reqwest::get("https://someones.url.net")
                 .unwrap()
                 .text()
                 .unwrap();
